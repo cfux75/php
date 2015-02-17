@@ -11,7 +11,7 @@ function copyShellFolder($source, $dest) {
 		return $var;
 }
 
-$source = '/var/vmail/westpfalz-klinikum.de/cfuchs/';
+$source = '/var/vmail/$domain/cfuchs/';
 $dest = '/var/vmail/archive/';
 
 $var = copyShellFolder($source, $dest);
